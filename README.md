@@ -1,24 +1,37 @@
 # 📚 DIO - Trilha Java Básico
 
+
+# 💼 Desafio: ContaBanco
+O desafio consiste em criar um projeto Java simples no terminal para simular a criação de uma conta bancária. O usuário irá fornecer os dados da conta via terminal, e ao final, uma mensagem personalizada será exibida.
+
+# 🛠️ Requisitos do Projeto
+Criar um projeto chamado ContaBanco
+
+Criar a classe ContaTerminal.java
+
+Realizar toda a codificação na classe acima
+
+# 🧾 Atributos da Conta
+
+| Atributo        | Tipo    | Exemplo         |
+| --------------- | ------- | --------------- |
+| Número          | Inteiro | `1021`          |
+| Agência         | Texto   | `067-8`         |
+| Nome do Cliente | Texto   | `MARIO ANDRADE` |
+| Saldo           | Decimal | `237.48`        |
+
+# 🖥️ Regras e Funcionalidades
+Os dados da conta devem ser inseridos via terminal utilizando a classe Scanner.
+
+O programa deve exibir uma mensagem solicitando cada dado ao usuário, por exemplo:
+
 ```
-Crie o projeto ContaBanco que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
-Dentro do projeto, crie a classe ContaTerminal.java para realizar toda a codificação do nosso programa.
+Por favor, digite o número da Agência!
+```
 
-Revise sobre regras de declaração de variáveis
+# ✅ Exemplo de saída esperada:
 
-Atributo	Tipo	Exemplo
-Numero	Inteiro	1021
-Agencia	Texto	067-8
-Nome Cliente	Texto	MARIO ANDRADE
-Saldo	Decimal	237.48
-Revise sobre terminal, main args e a classe Scanner
-Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
-Programa: "Por favor, digite o número da Agência !"
-Usuário: 1021 (depois ENTER para o próximo campo)
-Revise sobre concatenação e classe String com método concat
-Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
-"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".
-
-Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
-
+```
+Olá MARIO ANDRADE, obrigado por criar uma conta em nosso banco.
+Sua agência é 067-8, conta 1021 e seu saldo 237.48 já está disponível para saque.
 ```
